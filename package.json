@@ -4,17 +4,30 @@
   "description": "test_react_components_with_enzyme_and_jest",
   "main": "index.js",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^27.4.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "jest": "^27.4.5"
+    "jest": "^27.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.2"
   },
   "devDependencies": {
-    "enzyme": "^3.11.0"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-17-updated": "^1.0.2",
+    "enzyme-to-json": "^3.6.2"
   },
   "scripts": {
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -25,5 +38,17 @@
   "bugs": {
     "url": "https://github.com/YuriyPent/Test_React_Components_with_Enzyme_and_Jest/issues"
   },
-  "homepage": "https://github.com/YuriyPent/Test_React_Components_with_Enzyme_and_Jest#readme"
+  "homepage": "https://github.com/YuriyPent/Test_React_Components_with_Enzyme_and_Jest#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
