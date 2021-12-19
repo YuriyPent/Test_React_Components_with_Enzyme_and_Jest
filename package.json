@@ -1,0 +1,29 @@
+{
+  "name": "test_react_components_with_enzyme_and_jest",
+  "version": "1.0.0",
+  "description": "test_react_components_with_enzyme_and_jest",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^27.4.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^27.4.5"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriyPent/Test_React_Components_with_Enzyme_and_Jest.git"
+  },
+  "author": "YuriyPent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriyPent/Test_React_Components_with_Enzyme_and_Jest/issues"
+  },
+  "homepage": "https://github.com/YuriyPent/Test_React_Components_with_Enzyme_and_Jest#readme"
+}
